@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "../../../sass/index.scss";
 import "../../../sass/style.scss";
 import { showFormattedDateTime } from "../../utils/datetime";

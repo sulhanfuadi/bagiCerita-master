@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import LitWithoutShadowDom from "../../../base/LitWithoutShadowDom";
 import { html } from "lit";
 import input from "./input";

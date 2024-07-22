@@ -1,14 +1,15 @@
-import '../../../sass/add-page.scss';
-import '../../../sass/style.scss';
-import header from '../component/container/linksappbar';
-import footer from '../component/container/footer';
-import formlogin from '../component/form/formlogin';
-import alert from '../component/alert/alert';
-import loading from '../component/loading/loading';
-import Auth from '../../network/auth';
-import CheckUserAuth from './checkuserauth';
-import Config from '../../config/config';
-import Utils from '../../utils/utils';
+/* eslint-disable no-unused-vars */
+import "../../../sass/add-page.scss";
+import "../../../sass/style.scss";
+import header from "../component/container/linksappbar";
+import footer from "../component/container/footer";
+import formlogin from "../component/form/formlogin";
+import alert from "../component/alert/alert";
+import loading from "../component/loading/loading";
+import Auth from "../../network/auth";
+import CheckUserAuth from "./checkuserauth";
+import Config from "../../config/config";
+import Utils from "../../utils/utils";
 
 const LoginPage = {
   async init() {
@@ -17,41 +18,41 @@ const LoginPage = {
   },
 
   _initialListener() {
-    const addFormRecord = document.querySelector('.form-input-form');
+    const addFormRecord = document.querySelector(".form-input-form");
     addFormRecord.addEventListener(
-      'submit',
+      "submit",
       async (event) => {
         event.preventDefault();
         event.stopPropagation();
-        addFormRecord.classList.add('was-validated');
+        addFormRecord.classList.add("was-validated");
         await this._sendPost();
         this._alertNotification();
         setTimeout(() => {
           this._goToDashboardPage();
         }, 3000);
       },
-      false,
+      false
     );
     const userToken = Utils.getUserToken(Config.USER_TOKEN_KEY);
     const isUserSignedIn = Boolean(userToken);
-    const logoutlabel = document.querySelector('.logout-appbar');
+    const logoutlabel = document.querySelector(".logout-appbar");
     if (isUserSignedIn) {
-      window.location.href = '/dashboard.html';
+      window.location.href = "/dashboard.html";
     } else {
-      logoutlabel.classList.add('hidden');
+      logoutlabel.classList.add("hidden");
     }
   },
 
   async _showLoading() {
     await setTimeout(() => {
-      const loadingComponent = document.querySelector('loading-component');
-      loadingComponent.classList.add('hidden');
+      const loadingComponent = document.querySelector("loading-component");
+      loadingComponent.classList.add("hidden");
     }, 3000);
   },
 
   _getFormData() {
-    const emailInput = document.querySelector('#email-input');
-    const passwordInput = document.querySelector('#password-input');
+    const emailInput = document.querySelector("#email-input");
+    const passwordInput = document.querySelector("#password-input");
     return {
       email: emailInput.value,
       password: passwordInput.value,
@@ -67,10 +68,13 @@ const LoginPage = {
           password: formData.password,
         });
         if (response.status === 200) {
-          Utils.setUserToken(Config.USER_TOKEN_KEY, response.data.loginResult.token);
+          Utils.setUserToken(
+            Config.USER_TOKEN_KEY,
+            response.data.loginResult.token
+          );
           Utils.setName(Config.NAME, response.data.loginResult.name);
 
-          window.alert('Signed user in detected');
+          window.alert("Signed user in detected");
 
           this._goToDashboardPage();
         } else {
@@ -88,7 +92,7 @@ const LoginPage = {
 
   _validateFormData(formData) {
     const formDataFiltered = Object.values(formData).filter(
-      (item) => item === '' || item === undefined || item === null,
+      (item) => item === "" || item === undefined || item === null
     );
     return formDataFiltered.length === 0;
   },
@@ -103,12 +107,17 @@ const LoginPage = {
   },
 
   _goToDashboardPage() {
-    window.location.href = '/dashboard.html';
+    window.location.href = "/dashboard.html";
   },
 
   _alertNotification() {
-    const alertComponent = document.createElement('alert-component');
-    alertComponent.classList.add('alert', 'alert-success', 'alert-dismissible', 'alertscss');
+    const alertComponent = document.createElement("alert-component");
+    alertComponent.classList.add(
+      "alert",
+      "alert-success",
+      "alert-dismissible",
+      "alertscss"
+    );
     document.body.appendChild(alertComponent);
   },
 };

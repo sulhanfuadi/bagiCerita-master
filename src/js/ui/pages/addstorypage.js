@@ -1,12 +1,13 @@
-import '../../../sass/add-page.scss';
-import '../../../sass/style.scss';
-import header from '../component/container/linksappbar';
-import footer from '../component/container/footer';
-import formaddstory from '../component/form/formaddstory';
-import alert from '../component/alert/alert';
-import loading from '../component/loading/loading';
-import CheckUserAuth from './checkuserauth';
-import Stories from '../../network/stories';
+/* eslint-disable no-unused-vars */
+import "../../../sass/add-page.scss";
+import "../../../sass/style.scss";
+import header from "../component/container/linksappbar";
+import footer from "../component/container/footer";
+import formaddstory from "../component/form/formaddstory";
+import alert from "../component/alert/alert";
+import loading from "../component/loading/loading";
+import CheckUserAuth from "./checkuserauth";
+import Stories from "../../network/stories";
 
 const AddPage = {
   async init() {
@@ -16,34 +17,34 @@ const AddPage = {
   },
 
   _initialListener() {
-    const addFormRecord = document.querySelector('.form-input-form');
+    const addFormRecord = document.querySelector(".form-input-form");
     addFormRecord.addEventListener(
-      'submit',
+      "submit",
       async (event) => {
         event.preventDefault();
         event.stopPropagation();
-        addFormRecord.classList.add('was-validated');
+        addFormRecord.classList.add("was-validated");
         await this._sendPost();
         this._alertNotification();
         setTimeout(() => {
           this._goToDashboardPage();
         }, 3000);
       },
-      false,
+      false
     );
   },
 
   async _showLoading() {
     await setTimeout(() => {
-      const loadingComponent = document.querySelector('loading-component');
-      loadingComponent.classList.add('hidden');
+      const loadingComponent = document.querySelector("loading-component");
+      loadingComponent.classList.add("hidden");
     }, 3000);
   },
 
   _getFormData() {
-    const evidenceInput = document.querySelector('#validationCustomEvidence');
-    const nameInput = document.querySelector('#storyname-input');
-    const descriptionInput = document.querySelector('#description-input');
+    const evidenceInput = document.querySelector("#validationCustomEvidence");
+    const nameInput = document.querySelector("#storyname-input");
+    const descriptionInput = document.querySelector("#description-input");
     return {
       name: nameInput.value,
       description: descriptionInput.value,
@@ -57,7 +58,7 @@ const AddPage = {
       try {
         const response = await Stories.addNewStory(formData);
         if (response.status === 201) {
-          window.alert('New Stories added successfully');
+          window.alert("New Stories added successfully");
           this._goToDashboardPage();
         } else {
           window.alert(`${response.message}`);
@@ -69,7 +70,9 @@ const AddPage = {
   },
 
   _validateFormData(formData) {
-    const formDataFiltered = Object.values(formData).filter((item) => item === '');
+    const formDataFiltered = Object.values(formData).filter(
+      (item) => item === ""
+    );
     return formDataFiltered.length === 0;
   },
 
@@ -83,12 +86,17 @@ const AddPage = {
   },
 
   _goToDashboardPage() {
-    window.location.href = '/dashboard.html';
+    window.location.href = "/dashboard.html";
   },
 
   _alertNotification() {
-    const alertComponent = document.createElement('alert-component');
-    alertComponent.classList.add('alert', 'alert-success', 'alert-dismissible', 'alertscss');
+    const alertComponent = document.createElement("alert-component");
+    alertComponent.classList.add(
+      "alert",
+      "alert-success",
+      "alert-dismissible",
+      "alertscss"
+    );
     document.body.appendChild(alertComponent);
   },
 };

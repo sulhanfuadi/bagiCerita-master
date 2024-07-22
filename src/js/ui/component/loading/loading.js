@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import LitShadowDom from "../../../base/LitShadowDom";
 import { html, css } from "lit";
 import { msg, updateWhenLocaleChanges } from "@lit/localize";

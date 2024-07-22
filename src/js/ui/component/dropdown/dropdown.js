@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { html } from "lit";
 import { allLocales } from "../../../../generated/locale-codes";
 import { updateWhenLocaleChanges } from "@lit/localize";

@@ -1,7 +1,8 @@
-import LitWithoutShadowDom from '../../../base/LitWithoutShadowDom';
-import { html } from 'lit';
-import { msg, updateWhenLocaleChanges } from '@lit/localize';
-import dropdown from '../dropdown/dropdown';
+/* eslint-disable no-unused-vars */
+import LitWithoutShadowDom from "../../../base/LitWithoutShadowDom";
+import { html } from "lit";
+import { msg, updateWhenLocaleChanges } from "@lit/localize";
+import dropdown from "../dropdown/dropdown";
 
 class NotfoundApp extends LitWithoutShadowDom {
   static get properties() {
@@ -27,16 +28,19 @@ class NotfoundApp extends LitWithoutShadowDom {
         </h2>
       </div>
       <locale-picker class="dropdown"></locale-picker>
-      <button class="btn return-button button" @click=${() => this._goToDashboard()}>
+      <button
+        class="btn return-button button"
+        @click=${() => this._goToDashboard()}
+      >
         ${msg(`Back`)}
       </button>
     `;
   }
 
   _goToDashboard() {
-    window.location.href = '/';
+    window.location.href = "/";
     document.querySelector;
   }
 }
 
-customElements.define('notfound-component', NotfoundApp);
+customElements.define("notfound-component", NotfoundApp);
