@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="de" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="s6abb1cd87fe0114e" target-language="de">
+  <source>Home</source>
+  <target>Startseite</target>
+</trans-unit>
+<trans-unit id="s85cfd760d64ddabc" target-language="de">
+  <source>Tell a Story</source>
+  <target>Eine Geschichte erzählen</target>
+</trans-unit>
+<trans-unit id="sc8da3cc71de63832" target-language="de">
+  <source>Login</source>
+  <target>Anmelden</target>
+</trans-unit>
+<trans-unit id="s2c15b9b13a3e2a80" target-language="de">
+  <source>Register</source>
+  <target>Registrieren</target>
+</trans-unit>
+<trans-unit id="s67749057edb2586b" target-language="de">
+  <source>Logout</source>
+  <target>Abmelden</target>
+</trans-unit>
+<trans-unit id="s7fee95b66225e1fb" target-language="de">
+  <source>Dashboard</source>
+  <target>Armaturenbrett</target>
+</trans-unit>
+<trans-unit id="sb6b7cfcdca578b57" target-language="de">
+  <source>Tell a Story for Guest</source>
+  <target>Eine Geschichte für Gäste erzählen</target>
+</trans-unit>
+<trans-unit id="s9ab5223a57752a06" target-language="de">
+  <source>© 2024 sulhanfuadi, All Rights Reserved.</source>
+  <target>© 2024 sulhanfuadi, Alle Rechte vorbehalten.</target>
+</trans-unit>
+<trans-unit id="sd11d91b014ad6396" target-language="de">
+  <source>The Place Where Stories are Shared</source>
+  <target>Der Ort, an dem Geschichten geteilt werden</target>
+</trans-unit>
+<trans-unit id="sea6f42eee26696e1" target-language="de">
+  <source>Share your experiences and discover stories from others! Here we see, read, and listen to each other's stories.</source>
+  <target>Teilen Sie Ihre Erfahrungen und entdecken Sie Geschichten von anderen! Hier sehen, lesen und hören wir die Geschichten der anderen.</target>
+</trans-unit>
+<trans-unit id="s40b3de3d4d313849" target-language="de">
+  <source>Start the Story</source>
+  <target>Beginnen Sie die Geschichte</target>
+</trans-unit>
+<trans-unit id="s04ae2813e8c5edf2" target-language="de">
+  <source>Story</source>
+  <target>Geschichte</target>
+</trans-unit>
+<trans-unit id="s09442466870144fb" target-language="de">
+  <source>Explore some of the stories created using our application</source>
+  <target>Entdecken Sie einige der Geschichten, die mit unserer Anwendung erstellt wurden</target>
+</trans-unit>
+<trans-unit id="sf1a78dd2508964c3" target-language="de">
+  <source>Photo</source>
+  <target>Foto</target>
+</trans-unit>
+<trans-unit id="s141c6780dd07a9e7" target-language="de">
+  <source>Share your Story here!</source>
+  <target>Teilen Sie hier Ihre Geschichte!</target>
+</trans-unit>
+<trans-unit id="sef49aec68fd1dc66" target-language="de">
+  <source>Name</source>
+  <target>Name</target>
+</trans-unit>
+<trans-unit id="sbfcf34af4ec9ac22" target-language="de">
+  <source>Sulhan</source>
+  <target>Sulhan</target>
+</trans-unit>
+<trans-unit id="s059d391cd4966b82" target-language="de">
+  <source>Please complete this field</source>
+  <target>Bitte füllen Sie dieses Feld aus</target>
+</trans-unit>
+<trans-unit id="s54972c2c9236bfcb" target-language="de">
+  <source>Your Story</source>
+  <target>Ihre Geschichte</target>
+</trans-unit>
+<trans-unit id="sbd7057795fc343d3" target-language="de">
+  <source>Sulhan will definitely be successful, aamiin</source>
+  <target>Sulhan wird definitiv erfolgreich sein, Aamiin</target>
+</trans-unit>
+<trans-unit id="s72dc4aff9d9092e7" target-language="de">
+  <source>Please upload a photo</source>
+  <target>Bitte laden Sie ein Foto hoch</target>
+</trans-unit>
+<trans-unit id="sdba8ec4130b30cd6" target-language="de">
+  <source>Share my Story!</source>
+  <target>Teilen Sie meine Geschichte!</target>
+</trans-unit>
+<trans-unit id="se15e5318306cee20" target-language="de">
+  <source>Data added successfully</source>
+  <target>Daten erfolgreich hinzugefügt</target>
+</trans-unit>
+<trans-unit id="sd1f44f1a8bc20e67" target-language="de">
+  <source>Email</source>
+  <target>Email</target>
+</trans-unit>
+<trans-unit id="se354bf41c95f1525" target-language="de">
+  <source>sulhantester@dicoding.id</source>
+  <target>sulhantester@dicoding.id</target>
+</trans-unit>
+<trans-unit id="sf6e1665c7022a1f8" target-language="de">
+  <source>Password</source>
+  <target>Passwort</target>
+</trans-unit>
+<trans-unit id="se38e37bd75c77342" target-language="de">
+  <source>bismillahGacor</source>
+  <target>bismillahGacor</target>
+</trans-unit>
+<trans-unit id="sb3d4f79d9d8b71e5" target-language="de">
+  <source>Submit</source>
+  <target>Absenden</target>
+</trans-unit>
+<trans-unit id="s40a4c375c7205b51" target-language="de">
+  <source>OOPS! PAGE NOT FOUND</source>
+  <target>OOPS! SEITE NICHT GEFUNDEN</target>
+</trans-unit>
+<trans-unit id="saa1f41ecae4a7112" target-language="de">
+  <source>WE ARE SORRY, BUT THE PAGE YOU REQUESTED WAS NOT FOUND</source>
+  <target>ES TUT UNS LEID, ABER DIE SEITE, DIE SIE ANGEFORDERT HABEN, WURDE NICHT GEFUNDEN</target>
+</trans-unit>
+<trans-unit id="sc16e00a7a8b2fde2" target-language="de">
+  <source>Back</source>
+  <target>Zurück</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="id" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="s6abb1cd87fe0114e">
+  <source>Home</source>
+  <target>Beranda</target>
+</trans-unit>
+<trans-unit id="s85cfd760d64ddabc">
+  <source>Tell a Story</source>
+  <target>Ceritakan Kisah</target>
+</trans-unit>
+<trans-unit id="sc8da3cc71de63832">
+  <source>Login</source>
+  <target>Masuk</target>
+</trans-unit>
+<trans-unit id="s2c15b9b13a3e2a80">
+  <source>Register</source>
+  <target>Daftar</target>
+</trans-unit>
+<trans-unit id="s67749057edb2586b">
+  <source>Logout</source>
+  <target>Keluar</target>
+</trans-unit>
+<trans-unit id="s7fee95b66225e1fb">
+  <source>Dashboard</source>
+  <target>Dasbor</target>
+</trans-unit>
+<trans-unit id="sb6b7cfcdca578b57">
+  <source>Tell a Story for Guest</source>
+  <target>Ceritakan Kisah untuk Tamu</target>
+</trans-unit>
+<trans-unit id="s9ab5223a57752a06">
+  <source>© 2024 sulhanfuadi, All Rights Reserved.</source>
+  <target>© 2024 sulhanfuadi, Semua Hak Dilindungi.</target>
+</trans-unit>
+<trans-unit id="sd11d91b014ad6396">
+  <source>The Place Where Stories are Shared</source>
+  <target>Tempat di Mana Cerita Dibagikan</target>
+</trans-unit>
+<trans-unit id="sea6f42eee26696e1">
+  <source>Share your experiences and discover stories from others! Here we see, read, and listen to each other's stories.</source>
+  <target>Bagikan pengalaman Anda dan temukan cerita dari orang lain! Di sini kita melihat, membaca, dan mendengarkan cerita satu sama lain.</target>
+</trans-unit>
+<trans-unit id="s40b3de3d4d313849">
+  <source>Start the Story</source>
+  <target>Mulai Cerita</target>
+</trans-unit>
+<trans-unit id="s04ae2813e8c5edf2">
+  <source>Story</source>
+  <target>Cerita</target>
+</trans-unit>
+<trans-unit id="s09442466870144fb">
+  <source>Explore some of the stories created using our application</source>
+  <target>Jelajahi beberapa cerita yang dibuat menggunakan aplikasi kami</target>
+</trans-unit>
+<trans-unit id="sf1a78dd2508964c3">
+  <source>Photo</source>
+  <target>Foto</target>
+</trans-unit>
+<trans-unit id="s141c6780dd07a9e7">
+  <source>Share your Story here!</source>
+  <target>Bagikan Cerita Anda di sini!</target>
+</trans-unit>
+<trans-unit id="sef49aec68fd1dc66">
+  <source>Name</source>
+  <target>Nama</target>
+</trans-unit>
+<trans-unit id="sbfcf34af4ec9ac22">
+  <source>Sulhan</source>
+  <target>Sulhan</target>
+</trans-unit>
+<trans-unit id="s059d391cd4966b82">
+  <source>Please complete this field</source>
+  <target>Silakan lengkapi kolom ini</target>
+</trans-unit>
+<trans-unit id="s54972c2c9236bfcb">
+  <source>Your Story</source>
+  <target>Cerita Anda</target>
+</trans-unit>
+<trans-unit id="sbd7057795fc343d3">
+  <source>Sulhan will definitely be successful, aamiin</source>
+  <target>Sulhan pasti akan sukses, aamiin</target>
+</trans-unit>
+<trans-unit id="s72dc4aff9d9092e7">
+  <source>Please upload a photo</source>
+  <target>Silakan unggah foto</target>
+</trans-unit>
+<trans-unit id="sdba8ec4130b30cd6">
+  <source>Share my Story!</source>
+  <target>Bagikan Ceritaku!</target>
+</trans-unit>
+<trans-unit id="se15e5318306cee20">
+  <source>Data added successfully</source>
+  <target>Data berhasil ditambahkan</target>
+</trans-unit>
+<trans-unit id="sd1f44f1a8bc20e67">
+  <source>Email</source>
+  <target>Email</target>
+</trans-unit>
+<trans-unit id="se354bf41c95f1525">
+  <source>sulhantester@dicoding.id</source>
+  <target>sulhantester@dicoding.id</target>
+</trans-unit>
+<trans-unit id="sf6e1665c7022a1f8">
+  <source>Password</source>
+  <target>Kata Sandi</target>
+</trans-unit>
+<trans-unit id="se38e37bd75c77342">
+  <source>bismillahGacor</source>
+  <target>bismillahGacor</target>
+</trans-unit>
+<trans-unit id="sb3d4f79d9d8b71e5">
+  <source>Submit</source>
+  <target>Kirim</target>
+</trans-unit>
+<trans-unit id="s40a4c375c7205b51">
+  <source>OOPS! PAGE NOT FOUND</source>
+  <target>OOPS! HALAMAN TIDAK DITEMUKAN</target>
+</trans-unit>
+<trans-unit id="saa1f41ecae4a7112">
+  <source>WE ARE SORRY, BUT THE PAGE YOU REQUESTED WAS NOT FOUND</source>
+  <target>KAMI MOHON MAAF, TAPI HALAMAN YANG ANDA MINTA TIDAK DITEMUKAN</target>
+</trans-unit>
+<trans-unit id="sc16e00a7a8b2fde2">
+  <source>Back</source>
+  <target>Kembali</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

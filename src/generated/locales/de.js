@@ -1,0 +1,44 @@
+
+    // Do not modify this file by hand!
+    // Re-generate this file by running lit-localize
+
+    
+    
+
+    /* eslint-disable no-irregular-whitespace */
+    /* eslint-disable @typescript-eslint/no-explicit-any */
+
+    export const templates = {
+      's04ae2813e8c5edf2': `Geschichte`,
+'s059d391cd4966b82': `Bitte füllen Sie dieses Feld aus`,
+'s09442466870144fb': `Entdecken Sie einige der Geschichten, die mit unserer Anwendung erstellt wurden`,
+'s141c6780dd07a9e7': `Teilen Sie hier Ihre Geschichte!`,
+'s2c15b9b13a3e2a80': `Registrieren`,
+'s40a4c375c7205b51': `OOPS! SEITE NICHT GEFUNDEN`,
+'s40b3de3d4d313849': `Beginnen Sie die Geschichte`,
+'s54972c2c9236bfcb': `Ihre Geschichte`,
+'s67749057edb2586b': `Abmelden`,
+'s6abb1cd87fe0114e': `Startseite`,
+'s72dc4aff9d9092e7': `Bitte laden Sie ein Foto hoch`,
+'s7fee95b66225e1fb': `Armaturenbrett`,
+'s85cfd760d64ddabc': `Eine Geschichte erzählen`,
+'s9ab5223a57752a06': `© 2024 sulhanfuadi, Alle Rechte vorbehalten.`,
+'saa1f41ecae4a7112': `ES TUT UNS LEID, ABER DIE SEITE, DIE SIE ANGEFORDERT HABEN, WURDE NICHT GEFUNDEN`,
+'sb3d4f79d9d8b71e5': `Absenden`,
+'sb6b7cfcdca578b57': `Eine Geschichte für Gäste erzählen`,
+'sbd7057795fc343d3': `Sulhan wird definitiv erfolgreich sein, Aamiin`,
+'sbfcf34af4ec9ac22': `Sulhan`,
+'sc16e00a7a8b2fde2': `Zurück`,
+'sc8da3cc71de63832': `Anmelden`,
+'sd11d91b014ad6396': `Der Ort, an dem Geschichten geteilt werden`,
+'sd1f44f1a8bc20e67': `Email`,
+'sdba8ec4130b30cd6': `Teilen Sie meine Geschichte!`,
+'se15e5318306cee20': `Daten erfolgreich hinzugefügt`,
+'se354bf41c95f1525': `sulhantester@dicoding.id`,
+'se38e37bd75c77342': `bismillahGacor`,
+'sea6f42eee26696e1': `Teilen Sie Ihre Erfahrungen und entdecken Sie Geschichten von anderen! Hier sehen, lesen und hören wir die Geschichten der anderen.`,
+'sef49aec68fd1dc66': `Name`,
+'sf1a78dd2508964c3': `Foto`,
+'sf6e1665c7022a1f8': `Passwort`,
+    };
+  
